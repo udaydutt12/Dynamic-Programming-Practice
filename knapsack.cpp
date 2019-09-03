@@ -47,5 +47,5 @@ int main()
     items.push_back(std::make_pair(7,5));
     int totalweight=7;
     int maxval = Knapsack(items,totalweight);
-    std::cout<<maxval;
+    std::cout<<"For the given Value-Weight pairs, the maximum value for a weight limit of "<<totalweight<<" is: "<<maxval;
 }
